@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 30px;
+    float: right;
+}
+
+.header {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 53px;
+    margin-left: 58px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav #green {
+    color: green;
+}
+
+hr {
+    position: relative;
+    top: 1px;
+    border: none;
+    height: 1px;
+    background: black;
+}
+
+.box {
+    background-color: green;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.box .text {
+    display: flex;
+    align-items: center;
+}
+
+.box .text p {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px; /* Add some spacing between the paragraphs */
+}
+
+.box .text #homes{
+    padding-right: 1100px;
+    color:white;
+    font-size: 30px;
+}
+.box .text #homeaboutus{
+    padding-right: 50px;
+    font-size: 20px;
+    color:white;
+}
+.box2{
+    background: darkgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 530px;
+
+}
+.footer{
+    display: inline-block;
+}
+
+.footer {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 62px;
+}
+.footer .tekst{
+    margin-top: 30px;
+    margin-left: 50px ;
+}
+.nav #zelen {
+    color: green;
+}
+hr {
+    position: relative;
+    top: 5px;
+    border: none;
+    height: 2px;
+    background: black;
+    margin-bottom: 10px;
+}
+
+.box2 hr{
+    position: relative;
+    top: 10px;
+    border: none;
+    height: 1.5px;
+    background: darkgray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.custom-hr {
+    margin-left: 55px;
+    margin-right: 72px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box2 h2{
+    margin-top: 26px;
+    color:white;
+  display: flex;
+    justify-content: center;
+}
+.customs-hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 117px;
+    margin-left: 55px;
+}
+.boxs {
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 300px;
+    margin-bottom: -15px;
+    padding: 13px;
+    border: 1px solid darkgray;s
+    text-align: center;
+    background-color: white;
+}
+.box2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.boxs h2 {
+    margin-top: 0;
+    color:black;
+}
+
+.boxs p {
+    margin-bottom: 5px;
+    margin-top: 30px;
+
+}
